@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+   
+}
+body{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    margin-top: 10px;
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+input[type=email],input[type=password]{
+    padding: 14px;
+    width: 100%;
+    display: inline-block;
+    margin: 5px 0px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+button{
+    cursor: pointer;
+    width: 100px;
+    padding: 7px 4px;
+    margin: 5px 0px;
+    background-color: rgb(131, 90, 90);
+}
+.icons{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+}
+.icons.a{
+    margin: 5px;
+}
